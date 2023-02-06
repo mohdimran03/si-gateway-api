@@ -21,5 +21,6 @@ import express from 'express'
 let app = express();
 
 app.listen(3001,()=> {
+  console.log('starting the server')
   console.log('server is running on port 3000')
 })
